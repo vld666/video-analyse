@@ -2,13 +2,13 @@ from ultralytics import YOLO
 import cv2
 import math
 # start webcam
-# cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 
 # balcon
 # cap = cv2.VideoCapture('rtsp://admin:chl0mIuN!@192.168.1.130:554/live/ch0')
 
 # parcare
-cap = cv2.VideoCapture('rtsp://admin:chl0mIuN!@192.168.1.157:554/live/ch0')
+# cap = cv2.VideoCapture('rtsp://admin:chl0mIuN!@192.168.1.157:554/live/ch0')
 
 cap.set(3, 640)
 cap.set(4, 480)
